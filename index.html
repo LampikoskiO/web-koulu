@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Harkka-Onni</title>
+    <!-- navbar -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="index.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="navbar.css" />
+  </head>
+  <body>
+    <div class="bg-image" id="home">
+      <div class="first-div">
+        <div class="logodiv">
+          <h1 class="logo">
+            <span class="logo1"><span class="I"> I </span>know </span>
+            <span class="logohtml">HTML</span> <br /><span class="logo2"
+              >also a little bit of CSS</span
+            >
+          </h1>
+        </div>
+      </div>
+      </div>
+      <!-- navbar (en saanut navbaria jäämään ylös kun scrollaa ohi, index.js löytyy koodi vielä ja antaa kyllä erroria, en osaa korjata.)-->
+      <div class="topnav" id="myTopnav">
+        <a class="navtesti" href="#home" class="active">Home</a>
+        <a class="navtesti" href="#DT">Design Thinking?</a>
+        <a class="navtesti" href="#DTnutshell">DT in nutshell</a>
+        <a class="navtesti" href="#about">About us</a>
+        <a class="navtesti" href="#contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <!--navbar end-->
+   <div class="vuoritausta2" id="DT">
+
+      <div class="second-div">
+        <div class="teksticontent1">
+        <h1 class="DesignOtsikko">
+          Design </br><span id="Thinking">thinking</span>
+        </h1>
+        <div class="teksticontent2">
+        <p class="DesignTeksti">Why is design thinking important? <br/> Design thinking enables organizations to create lasting value for consumers. 
+          The process is useful in any complex system (not just design systems) because it: </p>
+          <ul class="DesignTeksti">
+            <li>Aims to solve a concrete human need</li>
+            <hr>
+            <li>Tackles problems that are ambigious or difficult to define</li>
+            <hr>
+            <li>Leads to more innovative solutions</li>
+            <hr>
+            <li>Makes organizations run faster and more efficiently</li>
+            <hr>
+          </ul>
+          <p class="DesignTeksti">Source: wework.com</p>
+        </div>
+      </div>
+      </div>
+      </div>
+          <div class="third-div" id="third-div">
+                    <h1 class="Aboutus">Design Thinking</h1>
+
+            <div class="box-container">
+              
+            <div class="first-box box-child">
+              <p class="box-teksti">Technology feasibility</p>
+            </div>
+            <div class="second-box box-child">
+              <p class="box-teksti">Business viability</p>
+            </div>
+            <div class="third-box box-child">
+              <p class="box-teksti">People desirability</p>
+            </div>
+            <div class="fourth-box box-child">
+              <p class="box-teksti">Sustainability viability</p>
+            </div>
+            <div class="fifth-box">
+              <p class="box-teksti5">Innovation</p>
+            </div>
+          </div>
+          </div>
+      <div class="iframeupote">
+        <iframe class="video" src="https://www.youtube.com/embed/-uAZdIJIl8o" title="iframe upote"></iframe>
+      </div>
+      <div class="fourth-div" id="DTnutshell">
+        <div class="DTnutshell"> 
+            <h1 class="DTotsikko tyyli1">Design Thinking <br>in nutshell</h1>
+            <div class="DT-teksticontainer">
+              <h1 class="tyyli1 points">Points</h1>
+                          <p class="tyyli2">Nisi placeat fugit adipisci, mollitia, repudiandae soluta quae fuga provident aut sed architecto.</p>
+
+            <p class="tyyli2 alempi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsam at quasi necessitatibus fugit magni reiciendis voluptas! Nisi placeat fugit adipisci, mollitia, repudiandae soluta quae fuga provident aut sed architecto.</p>
+            <br>
+            <h3 class="tyyli1 dtlineh">Doing the right thing</h3>
+            <p class="tyyli2 dtlineh">vs</p>
+            <h3 class="tyyli1 dtlineh">Doing the thing right</h3>
+          </div>
+          </div>
+
+      </div>
+      <div class="third-div" id="about">
+        <h1 class="Aboutus">About Us</h1>
+            <div class="box-container" id="laatikkokoko">
+            <div class="first-box box-child1">
+              <div class="colorforppl1">
+             <a> <p class="box-teksti">Mike Benson</p> </a>
+              </div>
+            </div>
+            <div class="second-box box-child2">
+              <div class="colorforppl2">
+              <p class="box-teksti">Joe Forbidden</p>
+              </div>
+            </div>
+            <div class="third-box box-child3">
+              <div class="colorforppl3">
+              <p class="box-teksti">Maria Santos</p>
+            </div>
+            </div>
+            <div class="fourth-box box-child4">
+              <div class="colorforppl4">
+              <p class="box-teksti">Jorma Selkävuori</p>
+              </div>
+            </div>
+      </div>
+      </div>
+
+<div class="container-form" id="contact">
+  <div class=container-fit>
+  <h1 class="Contact-us">Contact us</h1>
+  <form action="action_page.php">
+
+    <label for="fname" class="form-teksti">Name</label>
+    <input type="text" class="form-laatikko" id="form-laatikko" name="name" placeholder="">
+
+    <label for="Email" class="form-teksti">Email</label>
+    <input type="text" class="form-laatikko" id="form-laatikko" name="email" placeholder="">
+
+    <label for="Phone" class="form-teksti">Phone</label>
+    <input type="text" class="form-laatikko" id="form-laatikko" name="phone" placeholder="">
+
+    
+    <input type="submit" value="Submit"> <!--SUBMIT NAPPULA-->
+
+  </form>
+  </div>
+</div>
+
+<div class="last-div-bg">
+    <div class="last-div"> 
+      <div class="contact-info-div">
+        <h1 class="Contact-us">Contact info</h1>
+        <div class="contact-laatikko">
+          
+          <div class="contact-teksti">
+          <p> SATAKUNNAN AMMATTIKORKEAKOULU
+          </p>
+          <p> Katuosoite 152431 Pori suomi</p>
+          <p>höpö höpö</p>
+          <br>
+          <p>05531315531</p>
+          </div>
+<div class="last-logo-div">
+          <h1 class="logo" id="loppu-logo">
+            <span class="logo1"><span class="I"> I </span>know </span>
+            <span class="logohtml">HTML</span> <br /><span class="logo2"
+              >also a little bit of CSS</span
+            >
+          </h1>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="pexel">
+      <p class="pexel-text">Images from: https://www.pexels.com/</p>
+    </div>
+
+</div>
+    
+
+  </body>
+</html>
